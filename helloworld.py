@@ -6,3 +6,4 @@ print('Hello World')
 '''push'''
 '''commit without push'''
 '''commit and push'''
+'''Push from ubuntu'''
