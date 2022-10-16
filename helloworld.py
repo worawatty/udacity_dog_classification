@@ -8,5 +8,5 @@ print('Hello World')
 '''commit and push'''
 '''Push from ubuntu'''
 import sys
-import numpy as np
+#import numpy as np
 print(sys.executable)
