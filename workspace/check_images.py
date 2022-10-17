@@ -101,10 +101,10 @@ def main():
     # # dictionary is returned from the function call as the variable results_stats    
     # # Calculates results of run and puts statistics in the Results Statistics
     # # Dictionary - called results_stats
-    # results_stats = calculates_results_stats(results)
+    results_stats = calculates_results_stats(results)
 
     # # Function that checks Results Statistics Dictionary using results_stats
-    # check_calculating_results(results, results_stats)
+    check_calculating_results(results, results_stats)
 
 
     # # TODO 6: Define print_results function within the file print_results.py
