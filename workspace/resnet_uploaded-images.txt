@@ -3,8 +3,8 @@ Pet Image Label Dictionary has 4 key-value pairs.
 Below are 4 of them:
  1 key:                     Cat_01.jpg  label:                        cat
  2 key:                   Table_01.jpg  label:                      table
- 3 key:                     Dog_01.jpg  label:                        dog
- 4 key:                     Dog_02.jpg  label:                        dog
+ 3 key:                     Pug_02.jpg  label:                        pug
+ 4 key:                     Pug_01.jpg  label:                        pug
 lynx
 desk
 pug, pug-dog
@@ -12,11 +12,11 @@ pug, pug-dog
 
      MATCH:
 
-                    Dog_01.jpg: 
-Real:                        dog   Classifier:                   pug, pug-dog
+                    Pug_02.jpg: 
+Real:                        pug   Classifier:                   pug, pug-dog
 
-                    Dog_02.jpg: 
-Real:                        dog   Classifier:                   pug, pug-dog
+                    Pug_01.jpg: 
+Real:                        pug   Classifier:                   pug, pug-dog
 
  NOT A MATCH:
 
@@ -30,12 +30,12 @@ Real:                      table   Classifier:                           desk
 
      MATCH:
 
-                    Dog_01.jpg: 
-Real:                        dog   Classifier:                   pug, pug-dog  
+                    Pug_02.jpg: 
+Real:                        pug   Classifier:                   pug, pug-dog  
 PetLabelDog: 1  ClassLabelDog: 1
 
-                    Dog_02.jpg: 
-Real:                        dog   Classifier:                   pug, pug-dog  
+                    Pug_01.jpg: 
+Real:                        pug   Classifier:                   pug, pug-dog  
 PetLabelDog: 1  ClassLabelDog: 1
 
  NOT A MATCH:
